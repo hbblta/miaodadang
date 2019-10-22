@@ -1,0 +1,80 @@
+
+.inputs{
+	height: 100rpx;
+	width: 100%;
+	overflow: hidden;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.outinput{
+	width: 700rpx;
+	height: 80rpx;
+	margin: 10rpx auto;
+	position: relative;
+}
+.inputs input{
+	width: 600rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	display: block;
+	background: #F1F1F1;
+	border-radius:40rpx;
+	font-size: 30rpx;
+	padding: 0 60rpx 0 40rpx;
+	color: #000;
+}
+.outinput .icon-shanchu{
+	position: absolute;
+	right: 20rpx;
+	font-size: 30rpx;
+	top: 25rpx;
+	color: #999;
+}
+.search{
+	height:calc( 100vh - 100rpx );
+	background: #fff;
+	width: 100%;
+}
+.remove{
+	font-size: 30rpx;
+	width: 150rpx;
+	text-align: center;
+	line-height: 100rpx;
+}
+.choose{
+	height:calc( 100vh - 700rpx );
+	width: 100%;
+}
+.choose-item{
+	width: 720rpx;
+	margin-left: 30rpx;
+	height: 120rpx;
+	border-bottom: 2rpx solid #F1F1F1;
+	position: relative;
+}
+.choose-item .icon-dui{
+	position: absolute;
+	right: 20rpx;
+	font-size: 30rpx;
+	top: 45rpx;
+	color: #06BF04;
+}
+.title{
+	width: 80%;
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #000;
+	line-height: 60rpx;
+}
+.tit{
+	width: 80%;
+	font-size: 30rpx;
+	color: #999;
+}
+

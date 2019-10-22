@@ -1,0 +1,63 @@
+
+page{
+  width: 100%;
+  height: 100%;
+}
+.component{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  color: #333;
+  font-size: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.component scroll-view{
+  line-height: 98rpx;
+  height: 100%;
+}
+.componentLeft{
+  width: 40%;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Left-item{
+  height: 98rpx;
+  background: #f6f6f6;
+}
+.Left-item.on{
+  border-left:10rpx solid #2196f3;
+  background: #fff;
+}
+.componentRight{
+  width: 60%;
+}
+.Right-item{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.Right-item icon{
+  width: 20rpx;
+  height: 20rpx;
+  margin-top: 49rpx;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+

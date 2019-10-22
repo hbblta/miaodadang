@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"title{ text-align: center; font-weight: bold; font-size: ",[0,35],"; line-height: ",[0,80],"; }\n.",[1],"main{ font-size:",[0,32],"; width: 95%; margin:0 auto; display: block; line-height: ",[0,60],"; }\n",],undefined,{path:"./pages/login/agreement.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/login/agreement.wxml') } }));

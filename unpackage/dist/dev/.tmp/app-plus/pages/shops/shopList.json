@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "titleNView": false,
+  "usingComponents": {
+    "mpvue-city-picker": "/pages/components/pickallcity"
+  }
+}

@@ -1,0 +1,1 @@
+<view><image style="margin-top:40rpx;" src="../../static/index/photo1.png" mode data-event-opts="{{[['tap',[['tophoflower',['$event']]]]]}}" bindtap="__e"></image><image style="margin-top:34rpx;" src="../../static/index/photo2.png" mode data-event-opts="{{[['tap',[['toanimal',['$event']]]]]}}" bindtap="__e"></image></view>

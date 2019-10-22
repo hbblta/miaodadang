@@ -1,0 +1,29 @@
+
+.pickers{
+	width: 100%;
+	height: 500rpx;
+}
+.item{
+	text-align: center;
+	font-size: 30rpx;
+	line-height: 100rpx;
+}
+.footer{
+	width: 711rpx;
+	height: 105rpx;
+	line-height: 105rpx;
+	background: -webkit-gradient(linear,left top, right top,from(#17c5af),color-stop(#20cdb2),color-stop(#37e0b9),to(#3fe9bb));
+	background: -o-linear-gradient(left,#17c5af,#20cdb2,#37e0b9,#3fe9bb);
+	background: linear-gradient(to right,#17c5af,#20cdb2,#37e0b9,#3fe9bb);
+	color: #fff;
+	font-size: 44rpx;
+	text-align: center;
+	border-radius: 10rpx;
+	position: fixed;
+	left:50%;
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	bottom:35rpx;
+}
+

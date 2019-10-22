@@ -1,0 +1,97 @@
+
+page{
+	background: #f6f6f6;
+}
+.header{
+	margin-top: 4rpx;
+	height: 571rpx;
+	width: 100%;
+	background: #fff;
+}
+.w673{
+	width: 674rpx;
+	margin: 0 auto;
+}
+.headerTitle{
+	height: 78rpx;
+	line-height: 78rpx;
+	font-size: 30rpx;
+}
+.front{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.front>view{
+	width: 290rpx;
+	height: 224rpx;
+}
+.add{
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border: 2rpx solid #dedede;
+	text-align: center;
+	font-size:30rpx;
+	color: #d5d5d5;
+}
+.add .icon-jia1{
+	font-size:45rpx;
+	margin: 60rpx auto 28rpx;
+	color: #d5d5d5;
+}
+.front-right image{
+	width: 100%;
+	height: 100%;
+}
+.front-right{
+	position: relative;
+}
+.front-right .mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	opacity: 0.7;
+	color: #fff;
+	text-align: center;
+	line-height: 224rpx;
+	font-size: 30rpx;
+}
+.front-right ._span{
+	position: absolute;
+	color: #fff;
+	font-size: 32rpx;
+	left: -55rpx;
+	top: 0;
+	z-index: 999;
+	color: #333;
+}
+.footer{
+	width: 711rpx;
+	height: 105rpx;
+	line-height: 105rpx;
+	background: -webkit-gradient(linear,left top, right top,from(#17c5af),color-stop(#20cdb2),color-stop(#37e0b9),to(#3fe9bb));
+	background: -o-linear-gradient(left,#17c5af,#20cdb2,#37e0b9,#3fe9bb);
+	background: linear-gradient(to right,#17c5af,#20cdb2,#37e0b9,#3fe9bb);
+	color: #fff;
+	font-size: 44rpx;
+	text-align: center;
+	border-radius: 10rpx;
+	position: fixed;
+	left:50%;
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	bottom:35rpx;
+}
+

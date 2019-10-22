@@ -1,0 +1,38 @@
+
+.listItem{
+
+	width: 100%;
+	padding: 30rpx 0 22rpx;
+	border-bottom:1rpx solid #efefef;
+}
+.main{
+	width: 670rpx;
+	margin: 0 auto;
+	font-size: 22rpx;
+	color: #b5b5b5;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.main .name{
+	font-size: 30rpx;
+	color: #000;
+	margin-bottom: 10rpx;
+}
+.main .listItemRight{
+	font-size: 26rpx;
+	color: #4db640;
+	line-height: 70rpx;
+}
+.nodata{
+	margin-top: 350rpx;
+	font-size: 30rpx;
+	color: #999;
+	text-align: center;
+}
+

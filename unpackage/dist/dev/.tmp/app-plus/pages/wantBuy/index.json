@@ -1,0 +1,12 @@
+{
+  "navigationBarBackgroundColor": "#f7f7f7",
+  "navigationBarTitleText": "发求购",
+  "bounce": "none",
+  "popGesture": "none",
+  "usingComponents": {
+    "mpvue-city-picker": "/pages/components/pickallcity",
+    "my-city-picker": "/pages/components/pickcity",
+    "cpimg": "/pages/components/cpimg/cpimg",
+    "compress": "/pages/components/compress"
+  }
+}

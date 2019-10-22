@@ -1,0 +1,15 @@
+
+.title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 35rpx;
+	line-height: 80rpx;
+}
+.main{
+	font-size:32rpx;
+	width: 95%;
+	margin:0 auto;
+	display: block;
+	line-height: 60rpx;
+}
+

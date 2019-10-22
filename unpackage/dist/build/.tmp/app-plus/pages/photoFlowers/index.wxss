@@ -1,0 +1,10 @@
+
+page{
+	background: #f6f6f6;
+	text-align: center;
+}
+image{
+	width: 711rpx;
+	height:346rpx;
+}
+

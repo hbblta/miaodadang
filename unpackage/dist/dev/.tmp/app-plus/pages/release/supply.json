@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#f7f7f7",
+  "navigationBarTitleText": "发供应",
+  "bounce": "none",
+  "popGesture": "none",
+  "usingComponents": {
+    "my-city-picker": "/pages/components/pickcity",
+    "cpimg": "/pages/components/cpimg/cpimg",
+    "compress": "/pages/components/compress"
+  }
+}

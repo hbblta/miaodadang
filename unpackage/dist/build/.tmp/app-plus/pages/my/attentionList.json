@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#f7f7f7",
+  "navigationBarTitleText": "关注",
+  "bounce": "none",
+  "usingComponents": {
+    "you-scroll": "/pages/components/you-scroll"
+  }
+}

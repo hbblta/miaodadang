@@ -1,0 +1,134 @@
+
+.header {
+	margin: 44rpx auto 0;
+	width: 695rpx;
+	/* border-bottom: 1upx solid #e6e6e6; */
+}
+textarea {
+	height: 250rpx;
+	width: 100%;
+	font-size: 30rpx;
+}
+.words {
+	font-size: 24rpx;
+	margin-bottom: 40rpx;
+	text-align: right;
+	color: #b6b6b6;
+	margin-bottom: 30rpx;
+}
+.header .photo {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 42rpx;
+}
+.header .photo>view {
+	width: 120rpx;
+	height: 120rpx;
+	margin-left: 42rpx;
+	float: left;
+	position: relative;
+}
+.header .photo>view icon {
+	position: absolute;
+	top: -7rpx;
+	left: 100rpx;
+	z-index: 99;
+}
+.header .photo>view image {
+	width: 100%;
+	height: 100%;
+	border-radius: 10rpx;
+}
+.video video {
+	width: 180rpx;
+	height: 320rpx;
+	margin: 0 0 30rpx 20rpx;
+}
+.center {
+	width: 695rpx;
+	margin: 0 auto;
+	padding-bottom: 150rpx;
+}
+.center>view {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	border-bottom: 1rpx solid #e6e6e6;
+	padding: 33rpx 0;
+	font-size: 30rpx;
+	color: #000;
+}
+.center picker {
+	color: #fb7917;
+	font-size: 28rpx;
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	height: 150rpx;
+	width: 100%;
+}
+.footer .btn {
+	width: 550rpx;
+	margin: 0 auto;
+	height: 80rpx;
+	background: -webkit-gradient(linear, left top, right top, from(#17c5af), color-stop(#20cdb2), color-stop(#37e0b9), to(#3fe9bb));
+	background: -o-linear-gradient(left, #17c5af, #20cdb2, #37e0b9, #3fe9bb);
+	background: linear-gradient(to right, #17c5af, #20cdb2, #37e0b9, #3fe9bb);
+	color: #fff;
+	text-align: center;
+	line-height: 80rpx;
+	font-size: 29rpx;
+	border-radius: 40rpx;
+}
+.out {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	width: 720rpx;
+	margin: 30rpx auto 40rpx;
+}
+.center-img {
+	width: 122rpx;
+	height: 122rpx;
+	margin-bottom: 27rpx;
+	position: relative;
+	margin-right: 22rpx;
+}
+.center-img image {
+	width: 122rpx;
+	height: 122rpx;
+}
+.center-img icon {
+	position: absolute;
+	top: -20rpx;
+	right: -20rpx;
+}
+.center-add {
+	text-align: center;
+	width: 122rpx;
+	height: 122rpx;
+	line-height: 122rpx;
+	background: #f8f8f8;
+	font-size: 50rpx;
+	color: #bbbbbb;
+	position: relative;
+}
+.out .title {
+	line-height: 122rpx;
+	color: #bababa;
+	font-size: 26rpx;
+	margin-left: 30rpx;
+}
+

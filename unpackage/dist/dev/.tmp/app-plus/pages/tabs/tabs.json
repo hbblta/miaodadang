@@ -1,0 +1,10 @@
+{
+  "bounce": "none",
+  "titleNView": false,
+  "usingComponents": {
+    "my": "/pages/tabcomponts/my",
+    "index": "/pages/tabcomponts/index",
+    "xiao-xi": "/pages/tabcomponts/xiaoxi",
+    "fu-jin": "/pages/tabcomponts/fujin"
+  }
+}

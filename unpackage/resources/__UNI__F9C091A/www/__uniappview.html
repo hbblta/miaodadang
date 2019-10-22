@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"苗搭档","entryPagePath":"pages/demo/demo2.html","page":{"pages/demo/demo2.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"demo","bounce":"none","usingComponents":{}}},"pages/demo/demo1.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"选择位置","bounce":"none","titleNView":{"buttons":[{"text":"完成","fontSize":17}]},"usingComponents":{}}},"pages/tabs/tabs.html":{"window":{"bounce":"none","titleNView":false,"usingComponents":{"my":"/pages/tabcomponts/my","index":"/pages/tabcomponts/index","xiao-xi":"/pages/tabcomponts/xiaoxi"}}},"pages/shops/shop.html":{"window":{"bounce":"none","titleNView":false,"usingComponents":{}}},"pages/photoFlowers/photoanimal.html":{"window":{"navigationBarTitleText":"昆虫识别","bounce":"none","usingComponents":{}}},"pages/index/wantBuy.html":{"window":{"bounce":"none","titleNView":false,"usingComponents":{"mpvue-city-picker":"/pages/components/pickallcity"}}},"pages/wantBuy/shoujia.html":{"window":{"navigationBarTitleText":"收到报价","bounce":"none","usingComponents":{}}},"pages/myPurchase/index.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"编辑求购","bounce":"none","usingComponents":{"mpvue-city-picker":"/pages/components/pickallcity","my-city-picker":"/pages/components/pickcity","cpimg":"/pages/components/cpimg/cpimg"}}},"pages/myPurchase/specifications.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"编辑求购","bounce":"none","usingComponents":{}}},"pages/myPurchase/myPurchase.html":{"window":{"navigationBarTitleText":"我的求购","enablePullDownRefresh":true,"usingComponents":{}}},"pages/mySupply/mySupply.html":{"window":{"navigationBarTitleText":"我的供应","enablePullDownRefresh":true,"usingComponents":{}}},"pages/wantBuy/index.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"发求购","bounce":"none","usingComponents":{"mpvue-city-picker":"/pages/components/pickallcity","my-city-picker":"/pages/components/pickcity","cpimg":"/pages/components/cpimg/cpimg"}}},"pages/components/map.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"选择位置","bounce":"none","titleNView":{"buttons":[{"text":"完成","fontSize":17}]},"usingComponents":{}}},"pages/index/specifications.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"选择规格","bounce":"none","usingComponents":{}}},"pages/index/supplyList.html":{"window":{"bounce":"none","titleNView":false,"usingComponents":{"mpvue-city-picker":"/pages/components/pickallcity"}}},"pages/help/help.html":{"window":{"navigationBarTitleText":"帮助中心","bounce":"none","usingComponents":{}}},"pages/index/choice.html":{"window":{"navigationBarTitleText":"选择品类","bounce":"none","usingComponents":{}}},"pages/mySupply/specifications.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"选择规格","bounce":"none","usingComponents":{}}},"pages/mySupply/supply.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"编辑供应","bounce":"none","usingComponents":{"my-city-picker":"/pages/components/pickcity","cpimg":"/pages/components/cpimg/cpimg"}}},"pages/release/retrieval.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"选择货品品种","bounce":"none","usingComponents":{}}},"pages/release/supply.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"发供应","bounce":"none","usingComponents":{"my-city-picker":"/pages/components/pickcity","cpimg":"/pages/components/cpimg/cpimg"}}},"pages/release/specifications.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"选择规格","bounce":"none","usingComponents":{}}},"pages/release/success.html":{"window":{"bounce":"none","titleNView":false,"usingComponents":{}}},"pages/wantBuy/quotationCenter.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"报价中心","bounce":"none","usingComponents":{}}},"pages/wantBuy/offer.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"立即报价","bounce":"none","usingComponents":{"my-city-picker":"/pages/components/pickcity","cpimg":"/pages/components/cpimg/cpimg"}}},"pages/wantBuy/specifications.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"发求购","bounce":"none","usingComponents":{}}},"pages/vip/index.html":{"window":{"navigationBarTitleText":"vip通道","bounce":"none","titleNView":{"buttons":[{"text":"","fontSrc":"./static/iconfont.ttf","fontSize":"22px","color":"#000"}]},"usingComponents":{}}},"pages/vip/details.html":{"window":{"navigationBarTitleText":"会员权益","bounce":"none","titleNView":{"buttons":[{"text":"","fontSrc":"./static/iconfont.ttf","fontSize":"22px","color":"#000"}]},"usingComponents":{}}},"pages/login/agreement.html":{"window":{"navigationBarTitleText":"注册协议","bounce":"none","titleNView":{"buttons":[{"text":"","fontSrc":"./static/iconfont.ttf","fontSize":"22px","color":"#000"}]},"usingComponents":{}}},"pages/photoFlowers/introduce.html":{"window":{"navigationBarTitleText":"详情","bounce":"none","usingComponents":{}}},"pages/photoFlowers/photogFlowers.html":{"window":{"navigationBarTitleText":"植物识别","bounce":"none","usingComponents":{}}},"pages/Authentication/index.html":{"window":{"navigationBarTitleText":"认证信息","bounce":"none","usingComponents":{}}},"pages/login/login3.html":{"window":{"navigationBarTitleText":"编辑信息","bounce":"none","usingComponents":{"picker-city":"/pages/components/pickerCity"}}},"pages/login/login1.html":{"window":{"bounce":"none","titleNView":false,"usingComponents":{}}},"pages/login/login2.html":{"window":{"bounce":"none","titleNView":false,"usingComponents":{}}},"pages/pay/pay.html":{"window":{"navigationBarTitleText":"在线支付","bounce":"none","titleNView":{"buttons":[{"text":"","fontSrc":"./static/iconfont.ttf","fontSize":"22px","color":"#000"}]},"usingComponents":{}}},"pages/Authentication/enterprise.html":{"window":{"navigationBarTitleText":"企业认证","bounce":"none","titleNView":{"buttons":[{"text":"","fontSrc":"./static/iconfont.ttf","fontSize":"22px","color":"#000"}]},"usingComponents":{}}},"pages/Authentication/serviceStation.html":{"window":{"navigationBarTitleText":"服务站认证","bounce":"none","titleNView":{"buttons":[{"text":"","fontSrc":"./static/iconfont.ttf","fontSize":"22px","color":"#000"}]},"usingComponents":{}}},"pages/Authentication/realName.html":{"window":{"navigationBarTitleText":"实名认证","bounce":"none","titleNView":{"buttons":[{"text":"","fontSrc":"./static/iconfont.ttf","fontSize":"22px","color":"#000"}]},"usingComponents":{}}},"pages/try/index.html":{"window":{"navigationBarTitleText":"撒大叫啊","bounce":"none","usingComponents":{}}},"pages/Authentication/realNamebg.html":{"window":{"navigationBarTitleText":"实名认证","bounce":"none","usingComponents":{}}},"pages/purchaseDetails/purchaseDetails.html":{"window":{"navigationBarBackgroundColor":"#f7f7f7","navigationBarTitleText":"求购详情","bounce":"none","titleNView":{"buttons":[{"text":"","fontSrc":"./static/iconfont.ttf","fontSize":"22px","color":"#000"}]},"usingComponents":{}}},"pages/detailSupply/detailSupply.html":{"window":{"titleNView":false,"bounce":"none","usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#fff","backgroundColor":"#fff"}},"tabBar":{"color":"","selectedColor":"","backgroundColor":"","borderStyle":"black","list":[],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/demo/demo2","pages/demo/demo1","pages/tabs/tabs","pages/shops/shop","pages/photoFlowers/photoanimal","pages/index/wantBuy","pages/wantBuy/shoujia","pages/myPurchase/index","pages/myPurchase/specifications","pages/myPurchase/myPurchase","pages/mySupply/mySupply","pages/wantBuy/index","pages/components/map","pages/index/specifications","pages/index/supplyList","pages/help/help","pages/index/choice","pages/mySupply/specifications","pages/mySupply/supply","pages/release/retrieval","pages/release/supply","pages/release/specifications","pages/release/success","pages/wantBuy/quotationCenter","pages/wantBuy/offer","pages/wantBuy/specifications","pages/vip/index","pages/vip/details","pages/login/agreement","pages/photoFlowers/introduce","pages/photoFlowers/photogFlowers","pages/Authentication/index","pages/login/login3","pages/login/login1","pages/login/login2","pages/pay/pay","pages/Authentication/enterprise","pages/Authentication/serviceStation","pages/Authentication/realName","pages/try/index","pages/Authentication/realNamebg","pages/purchaseDetails/purchaseDetails","pages/detailSupply/detailSupply"],"subPackages":[],"nvueCompiler":"weex","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.1.1","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

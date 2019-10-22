@@ -1,0 +1,75 @@
+
+.header{
+	margin-top:var(--status-bar-height);
+	padding-bottom: 75rpx;
+	border: 1rpx solid #f0f0f0;
+}
+.icon-chacha{
+	font-size: 40rpx;
+	margin: 30rpx 0 86rpx 30rpx;
+}
+.logo{
+	width: 246rpx;
+	height: 300rpx;
+	margin: 0 auto 54rpx;
+	display: block;
+}
+.slogan{
+	text-align: center;
+}
+.sloganItem1{
+	font-size: 40rpx;
+	color: #20be9f;
+}
+.sloganItem2{
+	margin-top: 40rpx;
+	font-size: 24rpx;
+	color: #7f7b7b;
+}
+.sloganItem3{
+	font-size: 24rpx;
+	color: #7f7b7b;
+	margin-bottom: 60rpx;
+}
+.btngroup{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+}
+.btngroup .btn{
+	width: 200rpx;
+	height: 70rpx;
+	border: 1rpx solid #f0f0f0;
+	color: #696969;
+	text-align: center;
+	border-radius: 36rpx;
+	line-height: 72rpx;
+	font-size: 32rpx;
+}
+.title{
+	margin: 78rpx 0 50rpx;
+	text-align: center;
+	font-size: 28rpx;
+	color: #2a2b2a;
+}
+.share{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 300rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin: 0 auto;
+}
+.share image{
+	width: 96rpx;
+	height: 96rpx;
+}
+

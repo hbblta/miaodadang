@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "编辑信息",
+  "bounce": "none",
+  "usingComponents": {
+    "my-city-picker": "/pages/components/pickcity",
+    "cpimg": "/pages/components/cpimg/cpimg"
+  }
+}

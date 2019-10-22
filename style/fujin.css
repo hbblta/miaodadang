@@ -1,0 +1,378 @@
+.header{
+		z-index: 300;
+		background: #fff;
+		left: 0;
+		top: 0;
+		padding-top: var(--status-bar-height);
+		height: 97upx;
+		line-height: 97upx;
+		text-align: center;
+		width: 100%;
+		position: fixed;
+		display: flex;
+		border-bottom: 1upx solid #f1f1f1;
+	}
+	.header .item{
+		width: 25%;
+		font-size: 30upx;
+		color: #848484;
+		font-weight: bold;
+		position: relative;
+	}
+	.header .item i{
+		display: block;
+		width: 58upx;
+		height: 4upx;
+		background: #34c4a8;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.header .item.active{
+		color: #000!important;
+	}
+	.swipers{
+		position: fixed;
+		z-index: 100;
+		top: calc(var(--status-bar-height) + 97upx);
+		left: 0;
+		width: 100%;
+		/* margin-top: calc(var(--status-bar-height) + 97upx); */
+		height: calc( 100vh - var(--status-bar-height) - 207upx);
+	}
+	.swiper{
+		height: calc( 100vh - var(--status-bar-height) - 207upx);
+	}
+	
+	.wantBuy-item{
+		width: 714upx;
+		height: 236upx;
+		margin: 0 auto 20upx;
+		background:#fff;
+		border-radius:20upx;
+		overflow: hidden;
+		position: relative;
+	}
+	.wantBuy-btns{
+		color: #97daaf;
+		border: 1upx solid #97daaf;
+		height: 45upx;
+		line-height: 47upx;
+		border-radius:5upx;
+		position: absolute;
+		width: 128upx;
+		text-align: center;
+		font-size: 30upx;
+		right:27upx;
+		border-radius:5upx;
+		bottom: 23upx;
+	}
+	.wantBuy-item1{
+		margin-top:30upx;
+		display: flex;
+		width: 657upx;
+		justify-content: space-between;
+		margin-left: 40upx;
+		color: #b3b3b3;
+		font-size: 18upx;
+	}
+	.wantBuy-item1 view{
+		font-weight: bold;
+		color: #000;
+		font-size: 29upx;
+	}
+	.wantBuy-item2{
+		line-height: 46upx;
+		font-size: 26upx;
+		font-weight: bold;
+		color: #b3b3b3;
+		margin-left: 40upx;
+	}
+	
+	
+	
+	
+	
+	
+	.mainItem {
+		background: #fff;
+		border-radius:10upx;
+		width: 100%;
+		height: 242upx;
+		display: flex;
+		justify-content: space-between;
+		padding: 15upx;
+		box-sizing: border-box;
+	}
+	
+	.mainItemLeft {
+		width: 202upx;
+		height: 202upx;
+	}
+	
+	.mainItemLeft image {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.mainItemRight {
+		width: 462upx;
+	}
+	
+	.right-Item1 {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+	
+	.right-Item2 {
+		display: flex;
+		width: 100%;
+		height: 80upx;
+	}
+	
+	.right-Item2 .tit {
+		color: #f97c0e;
+		font-size: 30upx;
+		line-height: 80upx;
+		width: 211upx;
+	}
+	
+	.icon-grounp {
+		display: flex;
+		margin-top: 27upx;
+	}
+	
+	.icon-grounp>view {
+		text-align: center;
+		width: 26upx;
+		height: 26upx;
+		color: #fff;
+		font-size: 20upx;
+		border-radius: 5upx;
+		line-height: 26upx;
+		margin-right: 9upx;
+		margin-top: 5upx;
+	}
+	
+	.right-Item4 {
+		display: flex;
+		line-height: 60upx;
+	}
+	
+	.right-Item4 view:nth-of-type(1) {
+		width: 290upx;
+		color: #c5c5c5;
+		font-size: 25upx;
+		margin-right: 10upx;
+	
+	}
+	
+	.right-Item4 view:nth-of-type(2) {
+		width: 169upx;
+		color: #999;
+		font-size: 25upx;
+	
+	}
+	
+	.right-Item4 view:nth-of-type(2) span {
+		font-size: 30upx;
+	}
+	
+	.sort {
+		height: 240upx;
+		position: absolute;
+		bottom: -240upx;
+		right: 0;
+		width: 200upx;
+		line-height: 80upx;
+		text-align: center;
+		background: #fff;
+	}
+	
+	.sortItem {
+		height: 79upx;
+		font-size: 25upx;
+		border-bottom: 1upx solid #AEAEAE;
+	}
+	
+	.sortItem.active {
+		color: #06BF04;
+	}
+	.more{
+		text-align: center;
+		height: 80upx;
+		line-height: 80upx;
+		color: #000000;
+		font-size: 30upx;
+	}
+	.nodata{
+		margin-top: 350upx;
+		font-size: 30upx;
+		color: #999;
+		text-align: center;
+	}
+	
+	
+	
+	.dynamicItem{
+		width: 686upx;
+		margin: 30upx auto 0;
+	}
+	.outdynamicItem{
+		width: 100%;
+		padding-bottom: 15upx;
+		border: 1upx solid #f6f6f6;
+	}
+	.dynamicItemTop{
+		display: flex;
+		
+	}
+	.dynamicItemTopLeft image{
+		width: 70upx;
+		height: 70upx;
+		margin-right: 20upx;
+		border-radius:50%;
+	}
+	.dynamicItemTopRight{
+		width: 586upx;
+	}
+	.dynamicItemTopRight1{
+		display: flex;
+		
+	}
+	.dynamicItemTopRight1 .name{
+		color: #333;
+		font-weight: bold;
+	
+		font-size: 27upx;
+	}
+	.dynamicItemTopRight2{
+		font-size: 22upx;
+		color: #adadad;
+		line-height: 50upx;
+	}
+	
+	.icon-grounp{
+			   margin-left: 26upx;
+			   display: flex;
+				margin-top: 0!important;
+		   }
+		 .icon-grounp>view{
+				 text-align: center;
+				 width: 26upx;
+				 height: 26upx;
+				 color: #fff;
+				 font-size: 20upx;
+				 border-radius:5upx;
+				 line-height: 26upx;
+				 margin-right: 9upx;
+				
+		}
+		.dynamicItemTopRight .texts{
+			font-size: 30upx;
+			line-height: 50upx;
+			color: #000;
+			font-weight: bold;
+			word-wrap: break-word;
+		}
+			.dynamicItemTopRight .bot{
+				text-align: right;
+				color: #bfbfbf;
+				font-size: 24upx;
+				line-height: 60upx;
+			}
+	 .thumbnails {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		/* display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox; */
+		/* -webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap; */
+	}
+	
+	.thumbnails .thumbnail {
+		width: 30%;
+		height: 180upx;
+		margin: 4upx;
+		background: #757575;
+		overflow: hidden;
+	}
+	
+	.my-gallery{
+		width: 250upx;
+		height: 400upx;
+		margin: 4upx;
+		background: #757575;
+		overflow: hidden
+	}
+	.gallery_img {
+		width: 100%;
+		height: 100%
+	}
+	.searchList{
+		height: 90upx;
+		background: #f9f9f9;
+		overflow: hidden;
+	}
+	.mainSearch{
+		width: 668upx;
+		height: 56upx;
+		border:1upx solid #ececec;
+		background: #fff;
+		border-radius:28upx;
+		margin: 16upx auto;
+		font-size: 22upx;
+		color: #999;
+		text-align: center;
+		line-height: 56upx;
+	}
+	.mainSearch span{
+		font-size: 30upx;
+	}
+	
+	
+	.nearbyShopsItem{
+		border-bottom:1rpx solid #f6f6f6;
+		padding: 15upx 0;
+		width: 100%;
+	}
+	.naerMain{
+		width: 705upx;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	.naerMain .nearMainLeft{
+		display: flex;
+	}
+	.naerMain .nearMainLeft image{
+		width: 130upx;
+		height: 130upx;
+		border-radius:50%;
+		margin-right: 30upx;
+	}
+	.naerMain .nearMainLeft .leftInfoTop{
+		display: flex;
+		margin-top: 10upx;
+	}
+	.naerMain .nearMainLeft .leftInfoTop .name{
+		font-size: 31rpx;
+		font-weight: bold;
+		color: #000;
+		max-width: 280upx;
+	}
+	.naerMain .nearMainLeft .leftInfoBottom{
+		width: 370upx;
+		font-size: 28upx;
+		margin-top:20upx ;
+		color: #b2b1b1;
+	}
+	.nearMainRight{
+		font-size: 20upx;
+		color: #bfbfbf;
+		line-height: 50upx;
+	}

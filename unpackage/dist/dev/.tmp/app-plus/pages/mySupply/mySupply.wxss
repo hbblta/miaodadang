@@ -1,0 +1,228 @@
+
+page {
+	background: #f6f6f6;
+}
+.mySupply{
+	position: relative;
+}
+.tabs {
+	border-top:2rpx solid #f6f6f6;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	height: 73rpx;
+	line-height: 73rpx;
+	font-size: 26rpx;
+	color: #999;
+	text-align: center;
+	background: #fff;
+	position: fixed;
+	top: 0rpx;
+	left: 0;
+	z-index:300;
+	width: 100%;
+}
+.tabs-item {
+	width: 50%;
+	position: relative;
+}
+.tabs-item.active {
+	color: #333;
+}
+.tabs-item view {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 48rpx;
+	height: 5rpx;
+	background: #16c4af;
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+.swiper{
+	margin-top: 75rpx;
+	height:100vh;
+}
+.swiper .mainCenter{
+	height: 100%;
+}
+.msg{
+	height: 84rpx;
+	line-height: 84rpx;
+	color: #c8c8c8;
+	font-size: 23rpx;
+	text-align: center;
+}
+.main-list-item{
+	height: 384rpx;
+	width: 710rpx;
+	background: #fff;
+	border-radius:20rpx;
+	margin: 0 auto 27rpx;
+	position: relative;
+	overflow: hidden;
+}
+.main-list-itemtop{
+	width: 693rpx;
+	height: 218rpx;
+	margin: 27rpx 0 30rpx 18rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.main-list-itemtop-left{
+	width: 223rpx;
+	height: 214rpx;
+}
+.main-list-itemtop-left image{
+	width: 223rpx;
+	height: 214rpx;
+}
+.main-list-itemtop-right{
+	margin-left: 28rpx;
+}
+.main-list-right-item1{
+	width: 432rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	font-weight: bold;
+	font-size: 29rpx;
+	color: #000;
+}
+.main-list-right-item1 ._span{
+	font-size:50rpx;
+	color: #b9b9b9;
+}
+.main-list-right-item2{
+	height: 60rpx;
+	line-height: 60rpx;
+	color: #fe7100;
+	font-size: 34rpx;
+	font-weight: bold;
+}
+.main-list-right-item2 ._span{
+	font-weight: normal;
+	font-size: 23rpx;
+}
+.main-list-right-item3{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	line-height: 34rpx;
+	font-size: 23rpx;
+	color: #666666;
+	font-weight: bold;
+	width: 374rpx;
+}
+.main-list-right-item3 view{
+	width: 50%;
+}
+.main-list-right-item4{
+	color: #acacac;
+	font-size: 24rpx;
+}
+.main-list-itembot{
+	margin-top: 30rpx;
+	color: #666666;
+	text-align: center;
+	border-top:1rpx solid #d2d2d2;
+	font-size: 25rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.main-list-itembot view{
+	width: 33.33%;
+	position: relative;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.main-list-itembot.xiajia view{
+	width: 33.33%;
+}
+.main-list-itembot view ._span{
+	display: block;
+	height: 39rpx;
+	width: 3rpx;
+	background: #999;
+	position: absolute;
+	right: 0rpx;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.mySuppyfooter{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	background: #fff;
+	height: 160rpx;
+	color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	border-top:1rpx solid #f3f3f3;
+}
+.mySuppyfooter .btns{
+	line-height: 100rpx;
+	height: 100rpx;
+	margin-top: 30rpx;
+	width: 350rpx;
+	font-size: 38rpx;
+	text-align: center;
+	border-radius:14rpx;
+	background: -webkit-gradient(linear,left top, right top,from(#17c5af),color-stop(#23d0b2),to(#3ce6bb));
+	background: -o-linear-gradient(left,#17c5af,#23d0b2,#3ce6bb);
+	background: linear-gradient(to right,#17c5af,#23d0b2,#3ce6bb);
+	overflow: hidden;
+}
+.mySuppyfooter .btns ._span{
+	font-size: 48rpx;
+	margin-right: 10rpx;
+}
+.pad{
+	height: 160rpx;
+}
+.more{
+	height: 80rpx;
+	font-size: 30rpx;
+	line-height: 80rpx;
+	text-align: center;
+	color: #999;
+}
+.nodata{
+	margin-top: 350rpx;
+	font-size: 30rpx;
+	color: #999;
+	text-align: center;
+}
+

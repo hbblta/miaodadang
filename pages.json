@@ -1,0 +1,903 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+	
+	{
+		"path": "pages/tabs/tabs",
+		"style": {
+			// "enablePullDownRefresh": true,
+			"app-plus": {
+				"bounce": "none", //关闭反弹效果
+				"titleNView": false
+	
+			}
+		}
+	},
+	{
+		"path": "pages/mystate/release",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "发布动态",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+	{
+		"path": "pages/login/ceshiLogin",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "登录",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+	{
+		"path": "pages/my/fankui",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "意见和反馈",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+	
+	{
+		"path": "pages/my/attentionList",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "关注",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+	{
+		"path": "pages/index/searchSupply",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "搜索供应",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+	{
+		"path": "pages/my/integral",
+		"style": {
+			// "enablePullDownRefresh": true,
+			"app-plus": {
+				"bounce": "none", //关闭反弹效果
+				"titleNView": false
+	
+			}
+		}
+	},
+	
+	{
+		"path": "pages/help/shezhi",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "设置",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+	{
+		"path": "pages/help/about",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "关于我们",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+	
+	
+	
+	{
+		"path": "pages/help/member",
+		"style": {
+			"navigationBarTitleText": "在线客服",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+	{
+		"path": "pages/my/runningWater",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "账单明细",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+	{
+		"path": "pages/my/wallet",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "收支明细",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+
+	{
+		"path": "pages/demo/demo2",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "demo",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+	
+	{
+		"path": "pages/shops/shopList",
+		"style": {
+			"enablePullDownRefresh": true,
+			"app-plus": {
+				"titleNView": false
+			}
+		}
+	},
+	
+	
+	{
+		"path": "pages/my/collectFootprints",
+		"style": {
+			"navigationBarTitleText": "收藏足迹",
+			"app-plus": {
+				
+			}
+		}
+	},
+	
+	{
+		"path": "pages/shops/edit",
+		"style": {
+			"navigationBarTitleText": "店铺编辑",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+			}
+		}
+	},
+	{
+		"path": "pages/mystate/community",
+		"style": {
+			"navigationBarTitleText": "社区"
+		}
+	},
+	{
+		"path": "pages/index/search",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "搜索",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+	
+	
+	{
+		"path": "pages/demo/demo1",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "选择位置",
+			"app-plus": {
+				"bounce": "none",
+				"titleNView": {
+				    "buttons": [ //原生标题栏按钮配置,
+				        {
+				            "text": "完成",
+							"fontSize":17
+				        }
+				    ]
+				}
+	
+			}
+		}
+	},
+	
+	
+	
+	
+	{
+		"path": "pages/mystate/index",
+		"style": {
+			"navigationBarTitleText": "我的动态",
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"app-plus": {
+				"bounce": "none", //关闭反弹效果
+				"titleNView": {
+					"buttons": [{
+						"text": "\ue631",
+						"fontSrc": "./static/iconfont.ttf",
+						"fontSize": "22px",
+						"color": "#000"
+					}]
+				}
+	
+			}
+		}
+	
+	
+	},
+	
+	
+	
+	{
+		"path": "pages/login/login1",
+		"style": {
+			"app-plus": {
+				"bounce": "none", //关闭反弹效果
+				"titleNView": false
+	
+			}
+		}
+	
+	
+	},
+	
+	{
+		"path": "pages/photoFlowers/index",
+		"style": {
+			"navigationBarTitleText": "鉴花识虫",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	},
+	
+	
+	
+	{
+		"path": "pages/shops/shop",
+		"style": {
+			"app-plus": {
+				"bounce": "none", //关闭反弹效果
+				"titleNView": false
+	
+			}
+		}
+	},
+	
+	{
+		"path": "pages/photoFlowers/photoanimal",
+		"style": {
+			"navigationBarTitleText": "昆虫识别",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	
+	
+	},
+	
+	{
+		"path": "pages/index/wantBuy",
+		"style": {
+			"app-plus": {
+				"bounce": "none", //关闭反弹效果
+				"titleNView": false
+	
+			}
+		}
+	},
+	
+	{
+		"path": "pages/wantBuy/shoujia",
+		"style": {
+			"navigationBarTitleText": "收到报价",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+			}
+		}
+	
+	
+	},
+	{
+		"path": "pages/myPurchase/index",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "编辑求购",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	
+	
+	},
+	{
+		"path": "pages/myPurchase/specifications",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "编辑求购",
+			"app-plus": {
+				"bounce": "none" //关闭反弹效果
+	
+			}
+		}
+	
+	
+	},
+	{
+		"path": "pages/myPurchase/myPurchase",
+		"style": {
+			"navigationBarTitleText": "我的求购",
+			"enablePullDownRefresh": true,
+			"app-plus": {
+				
+			}
+		}
+	},
+	
+	
+	{
+		"path": "pages/mySupply/mySupply",
+		"style": {
+			"navigationBarTitleText": "我的供应",
+			"enablePullDownRefresh": true,
+			"app-plus": {
+				
+			}
+		}
+	},
+	
+	{
+		"path": "pages/wantBuy/index",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "发求购",
+			"app-plus": {
+				"bounce": "none", //关闭反弹效果
+				"popGesture":"none"
+	
+			}
+		}
+	
+	
+	},
+	{
+		"path": "pages/components/map",
+		"style": {
+			"navigationBarBackgroundColor": "#f7f7f7",
+			"navigationBarTitleText": "选择位置",
+			"app-plus": {
+				"bounce": "none",
+				"titleNView": {
+				    "buttons": [ //原生标题栏按钮配置,
+				        {
+				            "text": "完成",
+							"fontSize":17
+				        }
+				    ]
+				}
+	
+			}
+		}
+	},
+	
+	
+	
+	
+	
+		
+
+		{
+			"path": "pages/index/specifications",
+			"style": {
+				"navigationBarBackgroundColor": "#f7f7f7",
+				"navigationBarTitleText": "选择规格",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+				}
+			}
+		},
+		{
+			"path": "pages/index/supplyList",
+			"style": {
+				"app-plus": {
+					"bounce": "none", //关闭反弹效果
+					"titleNView": false
+				}
+			}
+		},
+
+		{
+			"path": "pages/help/help",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+				}
+			}
+		},
+
+		{
+			"path": "pages/index/choice",
+			"style": {
+				"navigationBarTitleText": "选择品类",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		
+
+
+
+		{
+			"path": "pages/mySupply/specifications",
+			"style": {
+				"navigationBarBackgroundColor": "#f7f7f7",
+				"navigationBarTitleText": "选择规格",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+				}
+			}
+		},
+		{
+			"path": "pages/mySupply/supply",
+			"style": {
+				"navigationBarBackgroundColor": "#f7f7f7",
+				"navigationBarTitleText": "编辑供应",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+				}
+			}
+		},
+
+
+
+		{
+			"path": "pages/release/retrieval",
+			"style": {
+				"navigationBarBackgroundColor": "#f7f7f7",
+				"navigationBarTitleText": "选择货品品种",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+				}
+			}
+
+
+		},
+		{
+			"path": "pages/release/supply",
+			"style": {
+				"navigationBarBackgroundColor": "#f7f7f7",
+				"navigationBarTitleText": "发供应",
+				"app-plus": {
+					"bounce": "none",//关闭反弹效果
+					"popGesture":"none"
+
+				}
+			}
+
+
+		},
+
+
+		{
+			"path": "pages/release/specifications",
+			"style": {
+				"navigationBarBackgroundColor": "#f7f7f7",
+				"navigationBarTitleText": "选择规格",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+				}
+			}
+		},
+		{
+			"path": "pages/release/success",
+			"style": {
+				"app-plus": {
+					"bounce": "none", //关闭反弹效果
+					"titleNView": false
+
+				}
+			}
+
+
+		},
+		{
+			"path": "pages/wantBuy/quotationCenter",
+			"style": {
+				"navigationBarBackgroundColor": "#f7f7f7",
+				"navigationBarTitleText": "报价中心",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+				}
+			}
+
+
+		},
+		{
+			"path": "pages/wantBuy/offer",
+			"style": {
+				"navigationBarBackgroundColor": "#f7f7f7",
+				"navigationBarTitleText": "立即报价",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+				}
+			}
+
+
+		},
+
+
+
+
+		{
+			"path": "pages/wantBuy/specifications",
+			"style": {
+				"navigationBarBackgroundColor": "#f7f7f7",
+				"navigationBarTitleText": "发求购",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+				}
+			}
+
+
+		},
+		
+
+		{
+			"path": "pages/vip/index",
+			"style": {
+				"navigationBarTitleText": "vip通道",
+				"app-plus": {
+					"bounce": "none", //关闭反弹效果
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue7b5",
+							"fontSrc": "./static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#000"
+						}]
+					}
+
+				}
+			}
+
+
+		},
+		{
+			"path": "pages/vip/details",
+			"style": {
+				"navigationBarTitleText": "会员权益",
+				"app-plus": {
+					"bounce": "none", //关闭反弹效果
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue7b5",
+							"fontSrc": "./static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#000"
+						}]
+					}
+
+				}
+			}
+
+
+		},
+
+
+
+
+
+
+		{
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText": "注册协议",
+				"app-plus": {
+					"bounce": "none", //关闭反弹效果
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue7b5",
+							"fontSrc": "./static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#000"
+						}]
+					}
+
+				}
+			}
+
+
+		},
+
+		
+
+
+
+		{
+			"path": "pages/photoFlowers/photogFlowers",
+			"style": {
+				"navigationBarTitleText": "植物识别",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+				}
+			}
+
+
+		},
+
+		{
+			"path": "pages/Authentication/index",
+			"style": {
+				"navigationBarTitleText": "认证信息",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+				}
+			}
+
+
+		},
+
+
+
+		{
+			"path": "pages/login/login3",
+			"style": {
+				"navigationBarTitleText": "编辑信息",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+
+				}
+			}
+
+
+		},
+
+
+
+
+
+
+		
+
+		{
+			"path": "pages/login/login2",
+			"style": {
+				"app-plus": {
+					"bounce": "none", //关闭反弹效果
+					"titleNView": false
+
+				}
+			}
+
+
+		},
+
+
+
+
+
+
+		{
+			"path": "pages/pay/pay",
+			"style": {
+				"navigationBarTitleText": "在线支付",
+				"app-plus": {
+					"bounce": "none", //关闭反弹效果
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue7b5",
+							"fontSrc": "./static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#000"
+						}]
+					}
+
+				}
+			}
+
+
+		},
+
+
+
+
+
+
+
+
+
+		{
+			"path": "pages/Authentication/enterprise",
+			"style": {
+				"navigationBarTitleText": "企业认证",
+				"app-plus": {
+					"bounce": "none", //关闭反弹效果
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue7b5",
+							"fontSrc": "./static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#000"
+						}]
+					}
+
+				}
+			}
+
+
+		},
+		
+
+
+
+
+		{
+			"path": "pages/Authentication/serviceStation",
+			"style": {
+				"navigationBarTitleText": "服务站认证",
+				"app-plus": {
+					"bounce": "none", //关闭反弹效果
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue7b5",
+							"fontSrc": "./static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#000"
+						}]
+					}
+
+				}
+			}
+
+
+		},
+
+
+
+
+
+
+
+
+		{
+			"path": "pages/Authentication/realName",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"app-plus": {
+					"bounce": "none", //关闭反弹效果
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue7b5",
+							"fontSrc": "./static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#000"
+						}]
+					}
+
+				}
+			}
+
+
+		},
+
+
+
+		{
+			"path": "pages/try/index",
+			"style": {
+				"navigationBarTitleText": "撒大叫啊",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+				}
+			}
+
+
+		},
+
+		{
+			"path": "pages/Authentication/realNamebg",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"app-plus": {
+					"bounce": "none" //关闭反弹效果
+
+				}
+			}
+
+
+		},
+
+
+
+
+
+
+		{
+			"path": "pages/purchaseDetails/purchaseDetails",
+
+			"style": {
+				"navigationBarBackgroundColor": "#f7f7f7",
+				"navigationBarTitleText": "求购详情",
+				"app-plus": {
+					"bounce": "none", //关闭反弹效果
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue653",
+							"fontSrc": "./static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+
+
+		},
+
+		
+
+
+		{
+			"path": "pages/detailSupply/detailSupply",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none" //关闭反弹效果
+				}
+			}
+
+
+		}
+	    
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

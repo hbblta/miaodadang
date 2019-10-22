@@ -1,0 +1,136 @@
+
+.overs{
+	overflow:hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.headerItem{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border-top:1rpx solid #eeeeee;
+}
+.headerItemLeft{
+	width: 217rpx;
+	/* background: #f7f7f7; */
+	height: 107rpx;
+	line-height: 107rpx;
+	text-align: center;
+	font-size: 30rpx;
+	color: #666;
+}
+.headerItemRight{
+	width: 490rpx;
+	margin-left: 43rpx;
+	height: 107rpx;
+	line-height: 107rpx;
+	font-size: 30rpx;
+	color: #333333;
+}
+.headerItemLeft.item0{
+	height: 154rpx;
+}
+.item0Img{
+	margin-top: 25rpx;
+	width: 104rpx;
+	height: 104rpx;
+	border-radius:50%;
+}
+.item2{
+	color: #b6b6b6;
+}
+.item3{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.item3 input{
+	width: 250rpx;
+	height: 57rpx;
+	line-height: 57rpx;
+	margin-top: 25rpx;
+}
+.item3 view{
+	width: 68rpx;
+}
+.item6Left{
+	height: 187rpx;
+	line-height: 187rpx;
+}
+.item6 textarea{
+	padding-top: 30rpx;
+	width: 100%;
+	height: 130rpx;
+	line-height: 50rpx;
+}
+.center{
+	margin: 306rpx;
+	margin: 20rpx 0 100rpx 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap:wrap;
+	    -ms-flex-wrap:wrap;
+	        flex-wrap:wrap;
+	width: 720rpx;
+}
+.center-img{
+	width: 122rpx;
+	height: 122rpx;
+	margin-bottom: 27rpx;
+	position: relative;
+	margin-right: 22rpx;
+}
+.center-img image{
+	width: 122rpx;
+	height: 122rpx;
+}
+.center-img icon{
+	position: absolute;
+	top: -20rpx;
+	right: -20rpx;
+}
+.center-add{
+	text-align: center;
+	width: 122rpx;
+	height: 122rpx;
+	line-height: 122rpx;
+	background: #f8f8f8;
+	font-size: 50rpx;
+	color: #bbbbbb;
+	position: relative;
+}
+.footer{
+	width: 711rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	background: -webkit-gradient(linear,left top, right top,from(#17c5af),color-stop(#20cdb2),color-stop(#37e0b9),to(#3fe9bb));
+	background: -o-linear-gradient(left,#17c5af,#20cdb2,#37e0b9,#3fe9bb);
+	background: linear-gradient(to right,#17c5af,#20cdb2,#37e0b9,#3fe9bb);
+	color: #fff;
+	font-size: 40rpx;
+	text-align: center;
+	border-radius: 10rpx;
+	margin: 40rpx auto 50rpx;
+}
+.footer:after{
+	content: "";
+	display: block;
+	height: 40rpx;
+}
+
+
+
+
+
+
+

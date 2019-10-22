@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "实名认证",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "./static/iconfont.ttf",
+        "fontSize": "22px",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

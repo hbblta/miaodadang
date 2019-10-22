@@ -1,0 +1,2 @@
+setCssToHead(["wx-image{ width: 100%; }\n",],undefined,{path:"./pages/help/about.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/help/about.wxml') } }));

@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#f7f7f7",
+  "navigationBarTitleText": "意见和反馈",
+  "bounce": "none",
+  "usingComponents": {
+    "cpimg": "/pages/components/cpimg/cpimg",
+    "compress": "/pages/components/compress"
+  }
+}

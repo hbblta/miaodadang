@@ -1,0 +1,8 @@
+{
+  "bounce": "none",
+  "titleNView": false,
+  "usingComponents": {
+    "mpvue-city-picker": "/pages/components/pickallcity",
+    "you-scroll": "/pages/components/you-scroll"
+  }
+}

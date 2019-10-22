@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "店铺编辑",
+  "bounce": "none",
+  "usingComponents": {
+    "my-city-picker": "/pages/components/pickcity",
+    "cpimg": "/pages/components/cpimg/cpimg"
+  }
+}

@@ -1,0 +1,1 @@
+<view><image src="{{obj.src}}" mode></image><view data-event-opts="{{[['tap',[['tourl',['$event']]]]]}}" class="footer" bindtap="__e">立即认证</view></view>

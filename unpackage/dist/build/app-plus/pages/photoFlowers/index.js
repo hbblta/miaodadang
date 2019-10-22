@@ -1,0 +1,2 @@
+setCssToHead(["body{ background: #f6f6f6; text-align: center; }\nwx-image{ width: ",[0,711],"; height:",[0,346],"; }\n",],undefined,{path:"./pages/photoFlowers/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/photoFlowers/index.wxml') } }));

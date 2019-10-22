@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "社区",
+  "usingComponents": {
+    "you-scroll": "/pages/components/you-scroll"
+  }
+}

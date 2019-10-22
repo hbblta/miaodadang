@@ -1,0 +1,231 @@
+
+.supplyRad{
+	position: fixed;
+	width: 138rpx;
+	height: 138rpx;
+	z-index: 100;
+	right: 52rpx;
+	bottom: 55rpx;
+	background: #34ad9e;
+	color: #fff;
+	font-size: 35rpx;
+	border-radius:50%;
+	line-height: 138rpx;
+	text-align: center;
+}
+.pad {
+	padding-top: var(--status-bar-height);
+	height: 190rpx;
+	width: 100%;
+}
+.headers {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+}
+.header {
+	height: 90rpx;
+	width: 100%;
+	padding-top: var(--status-bar-height);
+	background: #f8f8f8;
+	line-height: 90rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	text-align: center;
+}
+.header .back {
+	height: 100%;
+	width: 75rpx;
+	color: #888888;
+	font-size: 35rpx;
+}
+.header .search {
+	width: 562rpx;
+	height: 54rpx;
+	border: 1rpx solid #ebebeb;
+	color: #9f9f9f;
+	background: #fff;
+	border-radius: 28rpx;
+	line-height: 54rpx;
+	margin-top: 16rpx;
+	font-size: 25rpx;
+}
+.header .search ._span {
+	font-size: 25rpx;
+	margin-right: 10rpx;
+}
+.header .share {
+	width: 75rpx;
+	color: #333;
+	font-size: 35rpx;
+}
+.screen {
+	height: 99rpx;
+	line-height: 99rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border-bottom: 1rpx solid #f1f1f1;
+	width: 100%;
+	background: #fff;
+}
+.screen-item {
+	width: 25%;
+	text-align: center;
+	font-size: 25rpx;
+	color: #333;
+	overflow: hidden;
+}
+.screen-item .triangle {
+	display: inline-block;
+	border-top: #000000 solid 7rpx;
+	border-left: transparent solid 7rpx;
+	border-right: transparent solid 7rpx;
+	border-bottom: transparent solid 7rpx;
+	margin: 46rpx 0 0 7rpx;
+}
+.scrolls {}
+.scrollItem {
+	height: 260rpx;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.mainItem {
+	width: 684rpx;
+	height: 202rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.mainItemLeft {
+	width: 202rpx;
+	height: 202rpx;
+}
+.mainItemLeft image {
+	width: 100%;
+	height: 100%;
+}
+.mainItemRight {
+	width: 462rpx;
+}
+.right-Item1 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.right-Item2 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 80rpx;
+}
+.right-Item2 .tit {
+	color: #f97c0e;
+	font-size: 30rpx;
+	line-height: 80rpx;
+	width: 211rpx;
+}
+.icon-grounp {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 27rpx;
+}
+.icon-grounp>view {
+	text-align: center;
+	width: 26rpx;
+	height: 26rpx;
+	color: #fff;
+	font-size: 20rpx;
+	border-radius: 5rpx;
+	line-height: 26rpx;
+	margin-right: 9rpx;
+	margin-top: 5rpx;
+}
+.right-Item4 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	line-height: 60rpx;
+}
+.right-Item4 view:nth-of-type(1) {
+	width: 290rpx;
+	color: #c5c5c5;
+	font-size: 25rpx;
+	margin-right: 10rpx;
+}
+.right-Item4 view:nth-of-type(2) {
+	width: 169rpx;
+	color: #999;
+	font-size: 25rpx;
+}
+.right-Item4 view:nth-of-type(2) ._span {
+	font-size: 30rpx;
+}
+.sort {
+	height: 240rpx;
+	position: absolute;
+	bottom: -240rpx;
+	right: 0;
+	width: 200rpx;
+	line-height: 80rpx;
+	text-align: center;
+	background: #fff;
+}
+.sortItem {
+	height: 79rpx;
+	font-size: 25rpx;
+	border-bottom: 1rpx solid #AEAEAE;
+}
+.sortItem.active {
+	color: #06BF04;
+}
+.mores{
+	text-align: center;
+	height: 80rpx;
+	line-height: 80rpx;
+	color: #000000;
+	font-size: 30rpx;
+}
+.nodata{
+	margin-top: 350rpx;
+	font-size: 30rpx;
+	color: #999;
+	text-align: center;
+}
+

@@ -1,0 +1,14 @@
+{
+  "navigationBarBackgroundColor": "#f7f7f7",
+  "navigationBarTitleText": "选择位置",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "完成",
+        "fontSize": 17
+      }
+    ]
+  },
+  "usingComponents": {}
+}

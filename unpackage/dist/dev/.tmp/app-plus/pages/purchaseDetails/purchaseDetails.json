@@ -1,0 +1,16 @@
+{
+  "navigationBarBackgroundColor": "#f7f7f7",
+  "navigationBarTitleText": "求购详情",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "./static/iconfont.ttf",
+        "fontSize": "22px",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

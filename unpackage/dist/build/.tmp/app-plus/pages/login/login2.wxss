@@ -1,0 +1,91 @@
+
+.login2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.header {
+	margin-top: var(--status-bar-height);
+	font-size: 40rpx;
+	line-height: 80rpx;
+	margin-left: 20rpx;
+}
+.logo {
+	display: block;
+	width: 241rpx;
+	height: 310rpx;
+	margin: 94rpx auto 189rpx;
+}
+.main {
+	width: 604rpx;
+	margin: 80rpx auto 0;
+}
+.main .inputs {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100rpx;
+	line-height: 100rpx;
+	margin-bottom: 26rpx;
+	display: flex;
+	border-bottom: 1rpx solid #dcdcdc;
+	line-height: 100rpx;
+}
+.main .input1 view {
+	width: 118rpx;
+	text-align: center;
+	font-size: 29rpx;
+	color: #333;
+}
+.main .input1 input {
+	width: 486rpx;
+	height: 100rpx;
+	display: inline-block;
+}
+.main .input2 view {
+	width: 180rpx;
+	text-align: center;
+	font-size: 29rpx;
+	color: #333;
+}
+.main .input2 input {
+	width: 400rpx;
+	height: 100rpx;
+	display: inline-block;
+	padding-left: 24rpx;
+}
+.sure {
+	height: 100rpx;
+	width: 100%;
+	background: -webkit-gradient(linear, left top, right top, from(#16c4b0), color-stop(#1fccb1), color-stop(#34d9b5), to(#41e9bc));
+	background: -o-linear-gradient(left, #16c4b0, #1fccb1, #34d9b5, #41e9bc);
+	background: linear-gradient(to right, #16c4b0, #1fccb1, #34d9b5, #41e9bc);
+	text-align: center;
+	font-size: 40rpx;
+	border-radius: 50rpx;
+	text-align: center;
+	color: #fff;
+	line-height: 100rpx;
+	margin-top: 80rpx;
+}
+.place {
+	color: #bfbfbf;
+	font-size: 30rpx;
+}
+.bot {
+	position: absolute;
+	bottom: 40rpx;
+	left: 0;
+	width: 100%;
+	font-size: 20rpx;
+	text-align: center;
+	color: #666666;
+}
+.bot ._span {
+	color: #16c4af;
+	margin-left: 20rpx;
+}
+

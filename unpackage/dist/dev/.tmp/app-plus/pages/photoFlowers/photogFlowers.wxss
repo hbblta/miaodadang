@@ -1,0 +1,61 @@
+
+.imgs{
+	width: 600rpx;
+	height: 600rpx;
+	margin: 40rpx auto;
+}
+.imgs image{
+	width: 600rpx;
+	height: 600rpx;
+}
+.add{
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border: 2rpx solid #dedede;
+	text-align: center;
+	font-size:30rpx;
+	color: #d5d5d5;
+}
+.add .icon-jia1{
+	font-size:80rpx;
+	margin: 160rpx auto 60rpx;
+	color: #d5d5d5;
+}
+.title{
+	text-align: center;
+	line-height: 120rpx;
+	font-size: 34rpx;
+}
+.btnsGroup{
+	width: 640rpx;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+}
+.btnsGroup .btn{
+	height: 80rpx;
+	line-height: 80rpx;
+	border-radius: 5rpx;
+	font-size: 30rpx;
+	background: #00AA00;
+	width: 200rpx;
+	color: #fff;
+	text-align: center;
+}
+.main{
+	
+	width: 650rpx;
+	padding-bottom: 100rpx;
+	margin:30rpx auto 0;
+	line-height: 60rpx;
+	color: #929292;
+	font-size: 30rpx;
+}
+

@@ -1,0 +1,7 @@
+{
+  "bounce": "none",
+  "titleNView": false,
+  "usingComponents": {
+    "you-scroll": "/pages/components/you-scroll"
+  }
+}

@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"item{ width: ",[0,673],"; margin: 0 auto; line-height: ",[0,80],"; font-size: ",[0,30],"; color: #cccccc; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }\n.",[1],"item .",[1],"right{ color: #4d4d4d; }\n",],undefined,{path:"./pages/my/runningWater.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/runningWater.wxml') } }));
